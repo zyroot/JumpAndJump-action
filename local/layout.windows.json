@@ -1,0 +1,82 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1936,
+      "height": 1056,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 468,
+                "type": "panel",
+                "width": 310
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 458,
+                "type": "panel",
+                "width": 310
+              }
+            ],
+            "height": 929,
+            "type": "dock-v",
+            "width": 310
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 327
+          },
+          {
+            "active": 0,
+            "children": [
+              "scene"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 1271
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "inspector",
+        "assets",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "project-settings": {
+      "x": 468,
+      "y": 132,
+      "width": 601,
+      "height": 564
+    },
+    "console": {
+      "x": -8,
+      "y": -8,
+      "width": 1936,
+      "height": 1056
+    }
+  }
+}

@@ -1,0 +1,379 @@
+2018-10-23T02:01:25.266Z - normal: Load ~/.CocosCreator/settings.json
+2018-10-23T02:01:25.270Z - normal: checking language setting...
+2018-10-23T02:01:25.270Z - normal: Language: zh
+2018-10-23T02:01:31.535Z - success: protocol editor-framework registered
+2018-10-23T02:01:31.535Z - success: protocol app registered
+2018-10-23T02:01:31.535Z - success: protocol theme registered
+2018-10-23T02:01:31.536Z - success: protocol packages registered
+2018-10-23T02:01:31.536Z - success: protocol unpack registerred
+2018-10-23T02:01:31.536Z - success: protocol disable-commonjs registerred
+2018-10-23T02:01:31.888Z - normal: connected!
+2018-10-23T02:01:31.889Z - normal: Check project C:\Users\Zy\Desktop\workspaceForCocos\Ts_manstor
+2018-10-23T02:01:31.933Z - normal: Initializing project C:\Users\Zy\Desktop\workspaceForCocos\Ts_manstor
+2018-10-23T02:01:32.003Z - normal: Initializing Cocos2d
+2018-10-23T02:01:36.068Z - normal: Initializing Asset Database
+2018-10-23T02:01:36.433Z - success: protocol uuid registerred
+2018-10-23T02:01:36.433Z - success: protocol db registerred
+2018-10-23T02:01:36.434Z - success: protocol thumbnail registerred
+2018-10-23T02:01:36.434Z - normal: Loading editor/builtin packages
+2018-10-23T02:01:36.986Z - success: assets loaded
+2018-10-23T02:01:36.988Z - success: builder loaded
+2018-10-23T02:01:36.991Z - success: cocos-analytics loaded
+2018-10-23T02:01:36.994Z - success: console loaded
+2018-10-23T02:01:37.031Z - success: fb-instant-games loaded
+2018-10-23T02:01:37.036Z - success: hierarchy loaded
+2018-10-23T02:01:37.076Z - success: inspector loaded
+2018-10-23T02:01:37.078Z - success: keystore loaded
+2018-10-23T02:01:37.101Z - success: node-library loaded
+2018-10-23T02:01:37.105Z - success: package-asset loaded
+2018-10-23T02:01:37.108Z - success: preferences loaded
+2018-10-23T02:01:37.111Z - success: project-exporter loaded
+2018-10-23T02:01:37.147Z - success: project-importer loaded
+2018-10-23T02:01:37.151Z - success: project-settings loaded
+2018-10-23T02:01:37.188Z - success: ui-kit loaded
+2018-10-23T02:01:37.192Z - success: scene loaded
+2018-10-23T02:01:37.194Z - success: sprite-editor loaded
+2018-10-23T02:01:37.199Z - success: store loaded
+2018-10-23T02:01:37.255Z - success: timeline loaded
+2018-10-23T02:01:37.256Z - normal: Loading builtin packages
+2018-10-23T02:01:37.682Z - success: asset-db-debugger loaded
+2018-10-23T02:01:37.687Z - success: code-editor loaded
+2018-10-23T02:01:37.688Z - success: color-picker loaded
+2018-10-23T02:01:37.690Z - success: jsb-adapter loaded
+2018-10-23T02:01:37.697Z - success: package-manager loaded
+2018-10-23T02:01:40.691Z - success: qqplay-adapter loaded
+2018-10-23T02:01:40.740Z - success: sdkbox loaded
+2018-10-23T02:01:40.807Z - success: tester loaded
+2018-10-23T02:01:40.812Z - success: ui-grid loaded
+2018-10-23T02:01:40.842Z - success: ui-kit-preview-extra loaded
+2018-10-23T02:01:40.864Z - success: ui-kit-preview loaded
+2018-10-23T02:01:40.868Z - success: ui-tree loaded
+2018-10-23T02:01:40.869Z - success: weapp-adapter loaded
+2018-10-23T02:01:46.512Z - normal: Loading packages
+2018-10-23T02:01:46.518Z - normal: Watching packages
+2018-10-23T02:01:47.790Z - normal: Run Application
+2018-10-23T02:01:50.912Z - success: preview server running at http://localhost:7456
+2018-10-23T02:02:14.003Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:02:14.005Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:02:14.320Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:04:07.660Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:04:07.662Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:04:07.701Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:04:29.313Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:04:29.313Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:04:29.577Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:06:51.448Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:06:51.450Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:06:51.485Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:07:09.260Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:07:09.260Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:07:09.402Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:07:24.015Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:07:24.016Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:07:24.043Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:08:33.291Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:08:33.295Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:08:33.561Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:09:30.219Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:09:30.219Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:09:30.405Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:09:50.893Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:09:50.893Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:09:50.983Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:10:52.839Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:10:52.840Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:10:53.072Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:36:01.251Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:36:01.253Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:36:01.286Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:45:36.274Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:45:36.278Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:45:36.434Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:46:39.651Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:46:39.652Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:46:39.688Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:47:17.070Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:47:17.071Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:47:17.107Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:48:27.263Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:48:27.265Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:48:27.319Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:53:49.173Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:53:49.180Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:53:49.320Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:54:46.449Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:54:46.450Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:54:46.547Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
+2018-10-23T02:56:46.451Z - warn: Please change the definition of property 'jumpAudio' in class 'NewClass'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-10-23T02:56:46.453Z - warn: The default value of NewClass.jumpAudio must be an empty string. (changed since 1.8)
+2018-10-23T02:56:46.486Z - warn: Script attached to "star" in prefab "star.prefab" is missing or invalid. Detailed information:
+Node path: "star"
+Asset url: "db://assets/resource/star.prefab"
+Script UUID: "e1646118-cd72-40d3-9f0b-13cf30e9daf2"
+Class ID: "e1646EYzXJA058LE88w6dry"
+
