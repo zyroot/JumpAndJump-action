@@ -18,8 +18,7 @@ export default class NewClass extends cc.Component {
 
     rigidbody:cc.RigidBody = null;
 
-    // LIFE-CYCLE CALLBACKS:
-
+    // LIFE-CYCLE CALLBACKS:·
     // onLoad () {}
 
       // 只在两个碰撞体开始接触时被调用一次
