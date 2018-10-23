@@ -14,6 +14,7 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
+    
     //RigidBody 类型
     private rigidbody = null;
     //跳跃持续时间

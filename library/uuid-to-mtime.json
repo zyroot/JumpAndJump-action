@@ -245,17 +245,17 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "ddf932c3-a71f-4fef-b217-ede46465a26f": {
-    "asset": 1540199294255,
+    "asset": 1540265557127,
     "meta": 1540046811099,
     "relativePath": "Scripts"
   },
   "46c7e011-43f5-4f65-90a0-6a8888011c89": {
-    "asset": 1540199089580,
+    "asset": 1540265212271,
     "meta": 1540046828938,
     "relativePath": "Scenes"
   },
   "6883dc10-6619-42ba-9d26-f0941dc07b04": {
-    "asset": 1540107143534,
+    "asset": 1540265212229,
     "meta": 1540046844009,
     "relativePath": "resource"
   },
@@ -295,7 +295,7 @@
     "relativePath": "Scenes\\Game.fire"
   },
   "dbcc8351-20ff-4ead-8eff-65eefd9f67d4": {
-    "asset": 1540107140797,
+    "asset": 1540265212256,
     "meta": 1540107143535,
     "relativePath": "resource\\audio"
   },
@@ -315,8 +315,8 @@
     "relativePath": "Scripts\\StarCtrl.ts"
   },
   "c441abf6-31b3-4dc0-bec8-4a13bd4f4950": {
-    "asset": 1540122284279,
-    "meta": 1540122287656,
+    "asset": 1540265557936,
+    "meta": 1540265700344,
     "relativePath": "Scripts\\GameCtrl.ts"
   },
   "da77371f-2fae-4572-a74c-a71eae0dc07f": {
@@ -325,7 +325,7 @@
     "relativePath": "Scripts\\PlayerCtrl.ts"
   },
   "5b3e5390-0f3a-4eb4-8fbc-47c059e32262": {
-    "asset": 1540198127911,
+    "asset": 1540265212316,
     "meta": 1540198107781,
     "relativePath": "Scripts\\跳一跳"
   },
