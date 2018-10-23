@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shan_a",
+    "texture": "498afa04-8e8e-417b-a40d-4b6c534ef6b6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      962,
+      698
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      962,
+      698
+    ]
+  }
+}

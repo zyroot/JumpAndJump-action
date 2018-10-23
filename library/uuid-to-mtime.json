@@ -250,12 +250,12 @@
     "relativePath": "Scripts"
   },
   "46c7e011-43f5-4f65-90a0-6a8888011c89": {
-    "asset": 1540265212271,
+    "asset": 1540276606665,
     "meta": 1540046828938,
     "relativePath": "Scenes"
   },
   "6883dc10-6619-42ba-9d26-f0941dc07b04": {
-    "asset": 1540265212229,
+    "asset": 1540276558904,
     "meta": 1540046844009,
     "relativePath": "resource"
   },
@@ -290,8 +290,8 @@
     "relativePath": "resource\\star.png"
   },
   "c7997191-a713-4c97-a568-a1e295f69678": {
-    "asset": 1540262977653,
-    "meta": 1540262977680,
+    "asset": 1540276565785,
+    "meta": 1540276565804,
     "relativePath": "Scenes\\Game.fire"
   },
   "dbcc8351-20ff-4ead-8eff-65eefd9f67d4": {
@@ -325,23 +325,143 @@
     "relativePath": "Scripts\\PlayerCtrl.ts"
   },
   "5b3e5390-0f3a-4eb4-8fbc-47c059e32262": {
-    "asset": 1540265212316,
+    "asset": 1540279720118,
     "meta": 1540198107781,
     "relativePath": "Scripts\\跳一跳"
   },
-  "470b40bc-0442-4eea-874e-d91d39ab7d5b": {
-    "asset": 1540199221707,
-    "meta": 1540199223324,
-    "relativePath": "Scripts\\跳一跳\\StartPhyCtrl.ts"
+  "fc02f228-7aa0-4713-a8f8-d70d890f0e15": {
+    "asset": 1540276546786,
+    "meta": 1540276550261,
+    "relativePath": "resource\\Jump"
+  },
+  "01de4c68-e594-4334-9f84-0e9d6e965098": {
+    "asset": 1539850542653,
+    "meta": 1540276550610,
+    "relativePath": "resource\\Jump\\bg.png"
+  },
+  "77de815d-c18d-4710-81ea-468f9851f845": {
+    "asset": 1539850604122,
+    "meta": 1540276550627,
+    "relativePath": "resource\\Jump\\chengbao.png"
+  },
+  "42678fc4-e0a7-4d0f-80b3-dec80b1ef824": {
+    "asset": 1539850498364,
+    "meta": 1540276550630,
+    "relativePath": "resource\\Jump\\d_a_1.png"
+  },
+  "f036dc69-416e-40ad-9aad-8757cc0dd550": {
+    "asset": 1539850529454,
+    "meta": 1540276550638,
+    "relativePath": "resource\\Jump\\d_b.png"
+  },
+  "504f78ab-acba-4f84-9eb4-4f0fc8000130": {
+    "asset": 1539850507966,
+    "meta": 1540276550640,
+    "relativePath": "resource\\Jump\\d_a_2.png"
+  },
+  "60ea8f55-4a38-4cba-9d5d-b8767545bc6b": {
+    "asset": 1539850534344,
+    "meta": 1540276550649,
+    "relativePath": "resource\\Jump\\d_c.png"
+  },
+  "e278efd1-e3fe-47ef-a7f0-422e0a3898bb": {
+    "asset": 1539850596897,
+    "meta": 1540276550652,
+    "relativePath": "resource\\Jump\\fangzi.png"
+  },
+  "79c60080-2cee-4349-8655-cc9f8b9473f4": {
+    "asset": 1539850468688,
+    "meta": 1540276550660,
+    "relativePath": "resource\\Jump\\gamer_a.png"
+  },
+  "e03db102-bab3-48fe-8649-d84e03b9a470": {
+    "asset": 1539850591399,
+    "meta": 1540276550662,
+    "relativePath": "resource\\Jump\\fengche.png"
+  },
+  "65f50737-0bad-4c42-88aa-f12c23cae739": {
+    "asset": 1539850491520,
+    "meta": 1540276550669,
+    "relativePath": "resource\\Jump\\npc_a.png"
+  },
+  "498afa04-8e8e-417b-a40d-4b6c534ef6b6": {
+    "asset": 1539850609707,
+    "meta": 1540276550689,
+    "relativePath": "resource\\Jump\\shan_a.png"
+  },
+  "fbec7695-2226-44fc-b437-5f2c11691724": {
+    "asset": 1539850615638,
+    "meta": 1540276550733,
+    "relativePath": "resource\\Jump\\shan_b.png"
+  },
+  "c86e5bfd-1989-4c1f-8423-4fad1cbc2800": {
+    "asset": 1539850621256,
+    "meta": 1540276550740,
+    "relativePath": "resource\\Jump\\shan_c.png"
+  },
+  "bc47ac6d-5ce7-41e5-98d7-b8fba1e343e2": {
+    "asset": 1539850586958,
+    "meta": 1540276550746,
+    "relativePath": "resource\\Jump\\shitou_a.png"
+  },
+  "c1ac3940-5978-4f48-951f-3aed9eed15b5": {
+    "asset": 1539850561710,
+    "meta": 1540276550752,
+    "relativePath": "resource\\Jump\\tree_a.png"
+  },
+  "55f5bb6d-3e63-4494-bde8-14f04d26cd7d": {
+    "asset": 1539850581658,
+    "meta": 1540276550754,
+    "relativePath": "resource\\Jump\\tree_b.png"
+  },
+  "2d799bf6-cc0c-494b-adee-70272ff7b78d": {
+    "asset": 1539850555718,
+    "meta": 1540276550763,
+    "relativePath": "resource\\Jump\\yun_b.png"
+  },
+  "8cc94d41-c4aa-4a03-8884-b8cf60d986d5": {
+    "asset": 1539850549376,
+    "meta": 1540276550765,
+    "relativePath": "resource\\Jump\\yun_a.png"
+  },
+  "8490e940-6eb0-43a3-9a29-c2adfb476b50": {
+    "asset": 1539847442636,
+    "meta": 1540276550889,
+    "relativePath": "resource\\Jump\\示意图.jpg"
+  },
+  "5f7e0c94-7d8a-459a-bca4-be3c9c0165ff": {
+    "asset": 1540286879705,
+    "meta": 1540286879737,
+    "relativePath": "Scenes\\MainScence.fire"
   },
   "cc0b1aa0-68af-43f9-8645-62945649332b": {
-    "asset": 1540263209410,
-    "meta": 1540263228633,
+    "asset": 1540278481149,
+    "meta": 1540278482442,
     "relativePath": "Scripts\\跳一跳\\FllowCtrl.ts"
   },
   "b3e13cb5-e7fc-419f-9c71-4a1c4d6df9f9": {
-    "asset": 1540263384257,
-    "meta": 1540263406257,
+    "asset": 1540281497866,
+    "meta": 1540281540212,
     "relativePath": "Scripts\\跳一跳\\MonstePhyCtrl.ts"
+  },
+  "eef24e13-1b0f-4c38-973c-37616637b213": {
+    "asset": 1540282202372,
+    "meta": 1540282203618,
+    "relativePath": "Scripts\\跳一跳\\MainCtrl.ts"
+  },
+  "03c6158f-9b56-4100-9180-1176eec47f6a": {
+    "asset": 1540283648541,
+    "meta": 1540283650251,
+    "relativePath": "Scripts\\跳一跳\\RestartCtrl.ts"
+  },
+  "470b40bc-0442-4eea-874e-d91d39ab7d5b": {
+    "asset": 1540286790982,
+    "meta": 1540286800106,
+    "relativePath": "Scripts\\跳一跳\\StartPhyCtrl.ts"
+  },
+  "c65a1c83-9fd6-4340-b8b7-b5c15014b8a7": {
+    "asset": 1540287128478,
+    "meta": 1540287130478,
+    "relativePath": "Scripts\\跳一跳\\NpcCtrl.ts"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chengbao",
+    "texture": "77de815d-c18d-4710-81ea-468f9851f845",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1041,
+      938
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1041,
+      938
+    ]
+  }
+}

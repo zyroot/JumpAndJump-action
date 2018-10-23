@@ -26,15 +26,19 @@ var NewClass = /** @class */ (function (_super) {
         //是否正在跳跃
         _this.isJump = false;
         _this.fllowCtrl = null;
+        _this.MainCtrl = null;
         return _this;
         // update (dt) {}
     }
     NewClass.prototype.init = function (fllowCtrl) {
         this.fllowCtrl = fllowCtrl;
     };
+    NewClass.prototype.initMainCtrl = function (MainCtrl) {
+        this.MainCtrl = MainCtrl;
+    };
     NewClass.prototype.start = function () {
         this.rigidbody = this.node.getComponent(cc.RigidBody);
-        this.rigidbody.applyForceToCenter(cc.v2(0, -100000));
+        this.rigidbody.linearVelocity = cc.v2(0, -500);
         cc.find("Canvas").on(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart, this); //添加屏幕监听
     };
     ;
@@ -46,22 +50,24 @@ var NewClass = /** @class */ (function (_super) {
         var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
         //设置0.1秒的延迟  完成平底移动
         var delayaction = cc.delayTime(0.05);
+        //变成扁的
+        var scaleSamllAction = cc.scaleTo(0.3, 0.25);
+        //变成圆的
+        var scaleBigAction = cc.scaleTo(0.3, 0.5);
         //向上动作执行完，
-        var upovercallback = cc.callFunc(function () {
-            // this.rigidbody.applyForceToCenter(cc.v2(0,-20000));//给一个向下的力
-        }, this);
         //向下动作执行玩，修改  isjump =false  给向下的力，做动作补偿
         var callback = cc.callFunc(function () {
-            this.rigidbody.applyForceToCenter(cc.v2(0, -20000)); //给一个向下的力
+            this.rigidbody.linearVelocity = cc.v2(0, -500); //给一个向下的力
             this.isJump = false;
         }, this);
-        return cc.sequence(delayaction, jumpUp, upovercallback, jumpDown, callback);
+        return cc.sequence(delayaction, jumpUp, jumpDown, callback);
     };
     ;
     // 只在两个碰撞体开始接触时被调用一次
     NewClass.prototype.onBeginContact = function (contact, selfCollider, otherCollider) {
         this.node.stopAllActions(); //防止动作重复
         cc.director.getPhysicsManager().gravity = cc.v2(0, 0);
+        this.rigidbody.linearVelocity = cc.v2(0, 0);
         if (selfCollider.tag === 11 && otherCollider.tag === 21 && !this.isJump) { //判断刚体标志 且 没有在跳跃
             this.isJump = true; //跳跃状态改为 true
             this.node.runAction(this.setJumpAction()); //执行动作
@@ -71,6 +77,11 @@ var NewClass = /** @class */ (function (_super) {
             this.rigidbody.linearVelocity = cc.v2(200, 0);
             cc.director.getPhysicsManager().gravity = cc.v2(0, -320);
             this.rigidbody.linearDamping = 1;
+        }
+        if (selfCollider.tag === 11 && otherCollider.tag === 44) { //判断刚体标志 死亡线
+            this.rigidbody.fixedRotation = true;
+            this.rigidbody.angularVelocity = 300;
+            this.MainCtrl.openRestart();
         }
     };
     ;
@@ -87,13 +98,16 @@ var NewClass = /** @class */ (function (_super) {
             // this.moveRight();
         }
     };
+    NewClass.prototype.offScreenTouchStart = function () {
+        cc.find("Canvas").off(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart, this); //关闭屏幕监听
+    };
     NewClass.prototype.moveLeft = function () {
         this.node.stopAllActions(); //停止所有动作
         this.fllowCtrl.fllowY();
         var action = cc.moveBy(0.25, cc.v2(150, 0)).easing(cc.easeCubicActionInOut()); //执行向前动作
         var callf = cc.callFunc(function () {
             this.isJump = false;
-            this.rigidbody.applyForceToCenter(cc.v2(0, -30000)); //给一个向下的力
+            this.rigidbody.linearVelocity = cc.v2(0, -500); //给一个向下的力
             // cc.director.getPhysicsManager().gravity = cc.v2(0,-420);
         }, this);
         this.node.runAction(cc.sequence(action, callf));

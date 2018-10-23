@@ -18,6 +18,7 @@ var fllowCtrl = /** @class */ (function (_super) {
     function fllowCtrl() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.target = null;
+        _this.distanes_ca_target = 0;
         _this.working = false;
         return _this;
     }
@@ -33,10 +34,10 @@ var fllowCtrl = /** @class */ (function (_super) {
         var w_pos = this.target.convertToWorldSpaceAR(cc.v2(0, 0));
         var n_pos = this.node.parent.convertToNodeSpaceAR(w_pos);
         var distanes = this.target.y - this.node.y;
-        if (distanes > 300 && !this.working) {
+        if (distanes > this.distanes_ca_target && !this.working) {
             // this.node.y = n_pos.y;
             this.working = true;
-            var action = cc.moveTo(0.2, cc.v2(this.node.x, n_pos.y - 200)).easing(cc.easeCubicActionIn());
+            var action = cc.moveTo(0.3, cc.v2(this.node.x, n_pos.y - 200)).easing(cc.easeCubicActionIn());
             var finishi = cc.callFunc(function () {
                 this.working = false;
             }, this);
@@ -56,6 +57,9 @@ var fllowCtrl = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], fllowCtrl.prototype, "target", void 0);
+    __decorate([
+        property(cc.Integer)
+    ], fllowCtrl.prototype, "distanes_ca_target", void 0);
     fllowCtrl = __decorate([
         ccclass
     ], fllowCtrl);

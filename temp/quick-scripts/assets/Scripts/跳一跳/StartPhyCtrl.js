@@ -20,7 +20,7 @@ var NewClass = /** @class */ (function (_super) {
     }
     NewClass.prototype.onLoad = function () {
         cc.director.getPhysicsManager().enabled = true;
-        cc.director.getPhysicsManager().gravity = cc.v2(0, -320);
+        // cc.director.getPhysicsManager().gravity = cc.v2(0,-320);
     };
     NewClass.prototype.start = function () {
     };

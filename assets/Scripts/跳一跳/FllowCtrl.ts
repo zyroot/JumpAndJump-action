@@ -16,6 +16,9 @@ export  class fllowCtrl extends cc.Component {
     @property(cc.Node)
     private target:cc.Node = null;
 
+    @property(cc.Integer)
+    private distanes_ca_target:number = 0;
+
     public working = false;
 
     public fllowX(){
@@ -31,10 +34,10 @@ export  class fllowCtrl extends cc.Component {
         var w_pos = this.target.convertToWorldSpaceAR(cc.v2(0,0));
         var n_pos = this.node.parent.convertToNodeSpaceAR(w_pos);
         var distanes = this.target.y-this.node.y;
-        if( distanes > 300 && !this.working){
+        if( distanes > this.distanes_ca_target && !this.working){
             // this.node.y = n_pos.y;
             this.working = true;
-            var action = cc.moveTo(0.2,cc.v2(this.node.x,n_pos.y-200)).easing(cc.easeCubicActionIn());
+            var action = cc.moveTo(0.3,cc.v2(this.node.x,n_pos.y-200)).easing(cc.easeCubicActionIn());
             let finishi = cc.callFunc(function(){
                 this.working = false;
             },this);
